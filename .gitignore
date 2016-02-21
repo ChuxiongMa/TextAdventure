@@ -1,0 +1,7 @@
+*~
+.atom-build.json
+CMakeLists.txt.user
+.DS_Store
+/.cproject
+/.project
+.clang_complete

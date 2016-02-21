@@ -1,0 +1,7 @@
+add_subdirectory(${CMAKE_SOURCE_DIR}/lib/networking)
+add_subdirectory(${CMAKE_SOURCE_DIR}/lib/bufferedprotocol)
+add_subdirectory(${CMAKE_SOURCE_DIR}/lib/bufferednetworking)
+add_subdirectory(${CMAKE_SOURCE_DIR}/lib/yamlinterface)
+add_subdirectory(${CMAKE_SOURCE_DIR}/lib/uvpp)
+add_subdirectory(${CMAKE_SOURCE_DIR}/lib/helpers)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")

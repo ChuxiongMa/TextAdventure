@@ -1,0 +1,7 @@
+add_subdirectory(${CMAKE_SOURCE_DIR}/examples/server)
+add_subdirectory(${CMAKE_SOURCE_DIR}/examples/client)
+add_subdirectory(${CMAKE_SOURCE_DIR}/examples/clientwithprotocol)
+add_subdirectory(${CMAKE_SOURCE_DIR}/examples/serverwithprotocol)
+add_subdirectory(${CMAKE_SOURCE_DIR}/examples/client-input)
+add_subdirectory(${CMAKE_SOURCE_DIR}/examples/jsonexample)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
